@@ -20,7 +20,7 @@ HP.search("Alexa");
 public void goToPage(String page){
     HP.goToPageX(page);
 }
-@And("^select the third (.+)$")
+@And("^select the (.+)$")
 public void selectItem(String item) throws InterruptedException {
     Thread.sleep(5000);
     HP.selectItemX(item);

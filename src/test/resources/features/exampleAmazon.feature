@@ -5,7 +5,7 @@ Feature: Test functionalities of the Amazon page
     Given the user navigates to www.amazon.com
     And searches for <criteria>
     And navigates to the <page>
-    And select the third <item>
+    And select the <item>
     Then assert what the item would be available for purchase
 
     Examples:
