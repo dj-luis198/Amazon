@@ -3,7 +3,7 @@ Test Automation of the Amazon page
 
 Feature: Test functionalities of the Amazon page
 
-Scenario Outline: As a customer when i search for alexa, i want to see it the third option on the second page is available for purchase and cant added to the cart.
+Scenario: As a customer when i search for alexa, i want to see it the third option on the second page is available for purchase and cant added to the cart.
 
 Given the user navigates to www.amazon.com
 
